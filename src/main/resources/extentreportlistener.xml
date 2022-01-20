@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Test">
+
+    <!-- Listener entry for ExtentReporterNG Class -->
+    <listeners>
+        <listener class-name="com.qa.ExtentReporterNG.ExtentReporterNG"/>
+    </listeners>
+
+    <test name="FREE CRM Regression Test">
+        <classes>
+            <class name="com.qa.testcases.GetAPITest"></class>
+
+        </classes>
+    </test>
+
+</suite>
